@@ -58,6 +58,7 @@ public class LBXMLController implements Initializable {
             ps.setString(1, st_uname.getText());
             ps.setString(2, st_pass.getText());
             ps.executeUpdate();
+            System.out.println("San");
             ps.close();
         }
     }
